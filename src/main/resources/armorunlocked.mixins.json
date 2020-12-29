@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.black_dog20.armorunlocked.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "armorunlocked.refmap.json",
+  "mixins": [
+    "CombatRulesMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

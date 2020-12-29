@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+issueTrackerURL="https://github.com/Crimix/ArmorUnlocked/issues"
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="All rights reserved"
+
+[[mods]]
+modId="armorunlocked"
+version="${file.jarVersion}"
+displayName="Armor Unlocked"
+updateJSONURL="https://raw.githubusercontent.com/Crimix/ArmorUnlocked/1.16/update.json"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/armor-unlocked"
+logoFile="armorunlocked-logo.png"
+credits="To all my friends for putting up with me breaking the server multiple times during testing"
+authors="black_dog20"
+description='''Overclock my armor'''
+
+[[dependencies.armorunlocked]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.armorunlocked]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3,1.17)"
+    ordering="NONE"
+    side="SERVER"
