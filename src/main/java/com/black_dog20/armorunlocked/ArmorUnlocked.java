@@ -28,8 +28,8 @@ public class ArmorUnlocked
 
     public static final SimpleChannel NETWORK = NetworkRegistry.ChannelBuilder
             .named(new ResourceLocation(MOD_ID, "network"))
-            .clientAcceptedVersions((s)-> true)
-            .serverAcceptedVersions((s)-> true)
+            .clientAcceptedVersions(PROTOCOL_VERSION::equals)
+            .serverAcceptedVersions(PROTOCOL_VERSION::equals)
             .networkProtocolVersion(() -> PROTOCOL_VERSION)
             .simpleChannel();
 }
