@@ -2,7 +2,7 @@
   "required": true,
   "package": "com.black_dog20.armorunlocked.mixin",
   "compatibilityLevel": "JAVA_8",
-  "refmap": "armorunlocked.refmap.json",
+  "refmap": "mixins.armorunlocked.refmap.json",
   "mixins": [
     "CombatRulesMixin"
   ],
