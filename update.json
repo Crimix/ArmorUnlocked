@@ -17,6 +17,12 @@
   "1.18": {
     "1.0.1": "https://github.com/Crimix/ArmorUnlocked/blob/1.18/CHANGELOG.md"
   },
+  "1.18.1": {
+    "1.0.1": "https://github.com/Crimix/ArmorUnlocked/blob/1.18/CHANGELOG.md"
+  },
+  "1.18.2": {
+    "1.0.2": "https://github.com/Crimix/ArmorUnlocked/blob/1.18/CHANGELOG.md"
+  },
   "promos": {
     "1.16.3-latest": "1.0.1",
     "1.16.3-recommended": "1.0.1",
@@ -27,6 +33,10 @@
     "1.17.1-latest": "1.0.1",
     "1.17.1-recommended": "1.0.1",
     "1.18-latest": "1.0.1",
-    "1.18-recommended": "1.0.1"
+    "1.18-recommended": "1.0.1",
+    "1.18.1-latest": "1.0.1",
+    "1.18.1-recommended": "1.0.1",
+    "1.18.2-latest": "1.0.2",
+    "1.18.2-recommended": "1.0.2"
   }
 }
