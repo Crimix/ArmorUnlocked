@@ -161,11 +161,11 @@ curseforge {
     project {
         id = '431995'
         changelogType = 'markdown'
-        changelog = 'As always find the changelog here [CHANGELOG](https://github.com/Crimix/ArmorUnlocked/blob/1.18/CHANGELOG.md)'
+        changelog = "As always find the changelog here [CHANGELOG](${changelog_url})"
         releaseType = 'release'
         addGameVersion 'Forge'
         addGameVersion 'Java 17'
-        addGameVersion '1.18.2'
+        addGameVersion '1.19'
         relations {
             optionalDependency 'attributefix'
             optionalDependency 'overloaded-armor-bar'
@@ -177,10 +177,11 @@ modrinth {
     token = modrinth_token
     projectId = "fqddFpyu"
     uploadFile = jar
-    changelog = 'As always find the changelog here [CHANGELOG](https://github.com/Crimix/ArmorUnlocked/blob/1.18/CHANGELOG.md)'
+    versionNumber = "${mc_version}-${version}"
+    changelog = "As always find the changelog here [CHANGELOG](${changelog_url})"
     versionType = "release"
     loaders = ["forge"]
-    gameVersions = ["1.18.2"]
+    gameVersions = ["1.19"]
 }
 
 mixin {
