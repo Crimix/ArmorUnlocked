@@ -1,7 +1,7 @@
 # Armor Unlocked Changelog
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
-## [1.19, 1.0.2] - 2022-xx-x
+## [1.19, 1.0.2] - 2022-06-26
 - Port to 1.19
 
 ## [1.18.2, 1.0.2] - 2021-04-03
