@@ -166,6 +166,7 @@ curseforge {
         addGameVersion 'Forge'
         addGameVersion 'Java 17'
         addGameVersion '1.19'
+        addGameVersion '1.19.1'
         relations {
             optionalDependency 'attributefix'
             optionalDependency 'overloaded-armor-bar'
@@ -182,6 +183,7 @@ modrinth {
     versionType = "release"
     loaders = ["forge"]
     gameVersions = ["1.19"]
+    gameVersions = ["1.19", "1.19.1"]
 }
 
 mixin {
